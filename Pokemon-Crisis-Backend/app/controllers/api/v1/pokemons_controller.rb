@@ -75,13 +75,17 @@ class Api::V1::PokemonsController < ApplicationController
       move_container = []
 
       poke[:moves].each{|move|
-        puts move[:move]
+        if move[:move].class == Hash
+          puts poke
+          byebug
+        end
+        puts move["move"]
         puts move.keys[0]
         puts move.values[0]["name"]
 
         puts "---------------"
 
-          move = move["move"]
+          move = move["move"] || move[:move]
           formatted_moves = {}
           level_learned_obj = {}
 
