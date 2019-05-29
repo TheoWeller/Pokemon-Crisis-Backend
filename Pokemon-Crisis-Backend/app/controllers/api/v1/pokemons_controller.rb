@@ -77,7 +77,7 @@ class Api::V1::PokemonsController < ApplicationController
       poke[:moves].each{|move|
         if move[:move].class == Hash
           puts poke
-          byebug
+          
         end
         puts move["move"]
         puts move.keys[0]
