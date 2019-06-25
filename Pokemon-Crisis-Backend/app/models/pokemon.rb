@@ -1,3 +1,2 @@
 class Pokemon < ApplicationRecord
-  
 end

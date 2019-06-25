@@ -6,9 +6,6 @@ Rails.application.routes.draw do
       post '/trainers/:id', to: 'trainers#update'
       get '/pokemons', to: 'pokemons#index'
       get '/trainers', to: 'trainers#index'
-      resources :types, only: [:index, :show]
     end
   end
 end
-
-# get 'users/:id/photos/:photo_id', to: 'users#edit_photo'
