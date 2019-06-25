@@ -1,24 +1,4 @@
-# README
+Pokemon Kry51s is a pair programming project Jack Hilshire (https://github.com/Guillamoure) worked on at The Flatiron School.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Over the course of five days we had a blast fetching from the Pokemon api (https://pokeapi.co/) and reshaping their massive amounts of Pokemon data into digestable chunks that we could utilize to create a simple 1v1 battle style game play.
+ 
